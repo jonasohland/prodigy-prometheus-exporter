@@ -1,0 +1,56 @@
+linters:
+  disable:
+    - gofumpt
+    - depguard
+    - tagalign
+    - wrapcheck
+    - ireturn
+  presets:
+    - bugs
+    - error
+    - format
+    - style
+    - unused
+linters-settings:
+  varnamelen:
+    ignore-names:
+      - err
+      - fd
+      - i
+      - j
+      - k
+      - ok
+      - v
+      - wg
+      - in
+      - out
+      - id
+  gomnd:
+    ignored-functions:
+      - 'os.OpenFile'
+      - 'os.MkdirAll'
+      - 'os.Mkdir'
+    ignored-numbers: ["0", "1", "2", "3"]
+  mnd:
+    ignored-functions:
+      - 'os.OpenFile'
+      - 'os.MkdirAll'
+      - 'os.Mkdir'
+    ignored-numbers: ["0", "1", "2", "3"]
+  tagliatelle:
+    case:
+      use-field-name: true
+      rules:
+        json: camel
+        toml: snake
+        env: upperSnake
+        envconfig: upperSnake
+  wrapcheck:
+    ignorePackageGlobs:
+      - encoding/*
+  thelper:
+    test:
+      begin: false
+  wsl:
+    allow-cuddle-with-calls: ["Lock", "RLock", "Add"]
+    allow-cuddle-with-rhs: ["Unlock", "RUnlock", "Add"]

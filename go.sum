@@ -1,0 +1,14 @@
+github.com/alecthomas/assert/v2 v2.10.0 h1:jjRCHsj6hBJhkmhznrCzoNpbA3zqy0fYiUcYZP/GkPY=
+github.com/alecthomas/assert/v2 v2.10.0/go.mod h1:Bze95FyfUr7x34QZrjL+XP+0qgp/zg8yS+TtBj1WA3k=
+github.com/alecthomas/kong v1.2.1 h1:E8jH4Tsgv6wCRX2nGrdPyHDUCSG83WH2qE4XLACD33Q=
+github.com/alecthomas/kong v1.2.1/go.mod h1:rKTSFhbdp3Ryefn8x5MOEprnRFQ7nlmMC01GKhehhBM=
+github.com/alecthomas/repr v0.4.0 h1:GhI2A8MACjfegCPVq9f1FLvIBS+DrQ2KQBFZP1iFzXc=
+github.com/alecthomas/repr v0.4.0/go.mod h1:Fr0507jx4eOXV7AlPV6AVZLYrLIuIeSOWtW57eE/O/4=
+github.com/hexops/gotextdiff v1.0.3 h1:gitA9+qJrrTCsiCl7+kh75nPqQt1cx4ZkudSTLoUqJM=
+github.com/hexops/gotextdiff v1.0.3/go.mod h1:pSWU5MAI3yDq+fZBTazCSJysOMbxWL1BSow5/V2vxeg=
+github.com/jonasohland/ext v0.0.0-20240412103324-40311214dd7c h1:HqhQipEySub4rFygmSW1a6bTse9qYuPBaKuZFvb8NS8=
+github.com/jonasohland/ext v0.0.0-20240412103324-40311214dd7c/go.mod h1:8Xg4StUkti4rZN4KfL/F1NSXlUU1C6umn3n5ACYznZ4=
+github.com/jonasohland/slog-ext v0.0.0-20240321144838-5f257e6bddbd h1:VMdXhFVUYZQRofldZICu2pHkORWoVVyz3qjdwGqY+NY=
+github.com/jonasohland/slog-ext v0.0.0-20240321144838-5f257e6bddbd/go.mod h1:gyprTkfBLGBwWowS6/lNStDXUoIEfAnb1Mbmrk9ia8I=
+github.com/phsym/console-slog v0.3.1 h1:Fuzcrjr40xTc004S9Kni8XfNsk+qrptQmyR+wZw9/7A=
+github.com/phsym/console-slog v0.3.1/go.mod h1:oJskjp/X6e6c0mGpfP8ELkfKUsrkDifYRAqJQgmdDS0=
